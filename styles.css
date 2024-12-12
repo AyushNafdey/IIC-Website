@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#header-title {
+  font-size: 3vw;
+  font-weight: bold;
+  background-image: linear-gradient(46deg, #120cc9 10%, #eb0e0e 90%, #f5d902 100%);
+  -webkit-background-clip: text;
+  --webkit-text-fill-color: transparent;
+  color: transparent;
+  margin-top: 0%;
+}
+
+p,
+#mission-pts {
+  margin: 0 13px 0 13px;
+  font-family: 'Poppins', serif;
+  font-size: 1.4vw;
+  text-align: justify;
+}
+
+.content {
+  width: 100%;
+  height: 12vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* padding: 1px 16px; */
+}
+
+.vision-mission {
+  margin-top: 15px;
+  width: auto;
+  height: 10vh;
+  color: ;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.9472163865546218) 43%, rgba(252, 176, 69, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 3vw;
+  overflow: hidden;
+}
+
+#vision {
+  margin-top: 12px;
+}
+
+.wrapper{
+  margin: 150px 0 0 0;
+  position: absolute;
+  width: 800px;
+  height: 35vh;
+  /* transform: translate(-50%, -50%); */
+  left: 19vw;
+  top: 105vh;
+  justify-content: space-around;
+  display: flex;
+  /* place-items: center; */
+  /* animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%; */
+}
+
+.container{
+  border: 1px solid rgb(131,58,180);
+  box-shadow: 10px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5em 0;
+  position: relative;
+  border-radius: 0.5em;
+}
+
+svg{
+  fill: blue;
+  width: 5em;
+  height: 5em;
+}
+
+i{
+  text-align: center;
+  font-weight: 200;
+}
+
+.num{
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+p.text{
+  font-size: 1.5em;
+  text-align: center;
+  pad: 0.7em 0;
+  font-weight: 400;
+  /* line-height: 0; */
+}
+
+/* @keyframes appear{
+  from{
+    opacity: 0;
+    scaling: 0.5;
+  }
+  to{
+    opacity: 1;
+    scaling: 1;
+  }
+} */
+

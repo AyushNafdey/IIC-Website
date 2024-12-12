@@ -1,0 +1,10 @@
+#main-header {
+  font-size: 3vw;
+  font-weight: bold;
+  background-image: radial-gradient(circle, rgba(63,94,251,1) 5%, rgba(252,70,107,1) 50%);
+  -webkit-background-clip: text;
+  --webkit-text-fill-color: transparent;
+  color: transparent;
+  margin-top: 0%;
+  text-align: center;
+}
